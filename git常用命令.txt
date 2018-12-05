@@ -1,5 +1,26 @@
-git init
+git init  将这个位置的文件变成git仓库
 git add README.md
+git commit -m "first commit"  这个是将文件上传 更新并且写好上传改了哪里
+git pull --rebase origin master  
 git commit -m "first commit"
 git remote add origin https://github.com/shuipingmian/-.git
+忘了推 git pull 尴尬。。。
+git pull --rebase origin master
+
 git push -u origin master
+
+
+
+这是一个git的基本视频教程  今天教大家如何把自己电脑上的文件夹变成一个git仓库
+
+1 首先  需要下载的有  一个是git的工具  这个网址在我的推荐网址的文件夹里面https://git-scm.com/downloads
+下载安装后 一直点下一步就可以  教程支持windows系统版的   如果你下载后你可以在鼠标的右键下看到这样的git
+2 必须要有一个github账号  这个在看的大家应该都有  在官网注册后 我们可以新建自己的项目库  我已经有了所以我给大家
+在建一个新的演示一下  但是上传我用已经建好的库
+3 现在我要把这个文件夹上传到我的github上面   需要刚刚的命令注意一下 这个是没有成为仓库的文件夹  这里我有一个已经成为仓库的文件夹  区别在于有一个git的隐藏文件夹  现在我要把这个文件夹变成git仓库
+
+4 这里我用了git add . 代表上传所有的文件  如果只需要上传部分文件可以输入文件名字
+出现了一个错误 是因为我没有git仓库的一个文件  2边文件不符 所以出错 解决办法在这个网址里面
+https://blog.csdn.net/orchidofocean/article/details/76599656
+在输入 git commit  显示上传了一些文件 但是现在只是在本地仓库 没有到远程仓库就是你的github
+5 记住输入你自己的正确的仓库地址
